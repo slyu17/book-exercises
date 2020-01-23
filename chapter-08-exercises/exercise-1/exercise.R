@@ -1,7 +1,7 @@
 # Exercise 1: creating and accessing lists
 
 # Create a vector `my_breakfast` of everything you ate for breakfast
-my_breakfast <- c("milk","egg","bread")
+my_breakfast <- c("milk","egg","bread") 
 
 # Create a vector `my_lunch` of everything you ate (or will eat) for lunch
 my_lunch <- c("noodles")
@@ -30,7 +30,7 @@ early_meals <- meals[c("breakfast","lunch")]
 
 # Create a list that has the number of items you ate for each meal
 # Hint: use the `lapply()` function to apply the `length()` function to each item
-items <- lapply(meals, length)
+items <- lapply(meals, length())
 
 # Write a function `add_pizza` that adds pizza to a given meal vector, and
 # returns the pizza-fied vector
