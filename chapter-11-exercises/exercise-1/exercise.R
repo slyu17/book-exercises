@@ -12,7 +12,7 @@ library(fueleconomy)
 # You should now have access to the `vehicles` data frame
 # You can use `View()` to inspect it
 
-
+# can't get it installed 
 # Select the different manufacturers (makes) of the cars in this data set. 
 # Save this vector in a variable
 
